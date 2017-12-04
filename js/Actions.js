@@ -57,7 +57,7 @@ Actions.eval = function(content, cache) {
 	try {
 		return eval(content);
 	} catch(e) {
-		console.error(e);
+		//console.error(e);
 		return false;
 	}
 };
